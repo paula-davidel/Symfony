@@ -1,0 +1,32 @@
+{% block body %}
+    <div class="container">
+    	<h1><center>Product List</center></h1>
+    	<br>
+        <div class="row">
+            <!-- Product List -->
+            <div class="col-sm-12 col-md-8">
+                <!-- Supporting Products -->
+                <div class="article-container my-1">
+	                	<table>
+	                		<th></th>
+	                		<th>Title</th>
+	                		<th>Price</th>
+	                		<th>Description</th>
+	                		<th>Show</th>
+	                		<th>Edit</th>
+	                		{% for product in products %}
+	                		<tr>
+	                			<td><img class="article-img" src="{{ asset('images/logo.png') }}" style="  border: 1px solid #ddd;border-radius: 4px;padding: 5px;width: 80px;"></td>
+	                			<td><span>{{ product.name }}</span></td>
+	                			<td><span>{{ product.price }}</span></td>
+	                			<td><span>{{ product.description }}</span></td>
+	                			<td><a href="{{ path('product_show', {id: product.id}) }}">Click Here! </a></td>
+	                			<td><a href="{{ path('product_edit', {id: product.id}) }}">Click Here! </a></td>
+	                		</tr>
+	                		{% endfor %}
+	                	</table>
+	            </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
