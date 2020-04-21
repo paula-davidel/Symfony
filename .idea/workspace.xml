@@ -41,9 +41,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19b0d732-3263-49d9-8a30-8dcbc8910bde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questions/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +182,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -199,7 +205,8 @@
       <workItem from="1587038635729" duration="87000" />
       <workItem from="1587038744363" duration="1342000" />
       <workItem from="1587040115851" duration="1919000" />
-      <workItem from="1587465941370" duration="3373000" />
+      <workItem from="1587465941370" duration="4148000" />
+      <workItem from="1587470394720" duration="7177000" />
     </task>
     <servers />
   </component>
@@ -216,6 +223,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="412" key="#Composer" timestamp="1587040326896">
@@ -226,14 +234,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1587036397789" />
+    <state x="-1516" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587470809528">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="-1516" y="143" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1587470809528" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587466395876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1587466395876" />
+    <state x="-1480" y="64" key="NewPhpClassDialog" timestamp="1587471047283">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="-1480" y="64" key="NewPhpClassDialog/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1587471047283" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1587468560875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1587468560875" />
+    <state x="-1778" y="0" key="SettingsEditor" timestamp="1587470749305">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="-1778" y="0" key="SettingsEditor/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1587470749305" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587036382641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,5 +262,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="122" width="585" height="795" key="find.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1587040163634" />
+    <state x="-1617" y="14" width="672" height="678" key="search.everywhere.popup" timestamp="1587471114466">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="-1617" y="14" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1587471114466" />
   </component>
 </project>
