@@ -26,3 +26,4 @@ composer.lock
 /config/bundles.php
 /config/packages/prod/monolog.yaml
 /.idea/*
+/.idea/workspace.xml
