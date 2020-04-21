@@ -8,8 +8,8 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController
 {
     /**
-      * @Route("/")
-    */
+     * @Route("/")
+     */
     public function index()
     {
         return new Response(

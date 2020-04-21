@@ -14,4 +14,15 @@
 .phpunit.result.cache
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
-.idea/*
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+/.env
+composer.lock
+symfony.lock
+public/.htaccess
+composer.lock
+/config/bundles.php
+/config/packages/prod/monolog.yaml
+/.idea/*
